@@ -4,7 +4,7 @@ from collections import deque
 
 class Queue(AbstractQueue):
     def __init__(self):
-       self.queue = deque()
+        self.queue = deque()
 
     def __len__(self):
         return len(self.queue)
